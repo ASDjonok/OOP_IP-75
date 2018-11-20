@@ -6,6 +6,16 @@ public class SportsEquipment {
     private String quality;
     private int cost;
 
+    public SportsEquipment(String shape, String color, String texture,
+                           String name, String quality, int cost) {
+        this.shape = shape;
+        this.color = color;
+        this.texture = texture;
+        this.name = name;
+        this.quality = quality;
+        this.cost = cost;
+    }
+
     public String getColor() {
         return color;
     }

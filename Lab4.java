@@ -1,7 +1,8 @@
 public class Lab4 {
     public static void main(String[] args) {
         SportsEquipment sportsEquipment =
-                new SportsEquipment();
+                new SportsEquipment("Round", "White", "plain",
+                        "Ball", "High", 100);
         /*sportsEquipment.cost = 100;
         sportsEquipment.cost = sportsEquipment.cost + 100;
         sportsEquipment.cost += 100;
