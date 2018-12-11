@@ -68,7 +68,7 @@ public class SportsEquipment {
         return cost;
     }
 
-    public void setCost(int cost) {
+    /*public void setCost(int cost) {
         this.cost = cost;
-    }
+    }*/
 }

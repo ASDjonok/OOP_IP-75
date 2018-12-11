@@ -6,7 +6,6 @@ public class Lab4 {
         SportsEquipment sportsEquipment =
                 new SportsEquipment("Round", "Black", "plain",
                         "Ball", "High", 100);
-
         SportsEquipment[] sportsEquipments = new SportsEquipment[3];
         sportsEquipments[0] = sportsEquipment;
         sportsEquipments[1] = new SportsEquipment("Square", "Red", "plain",
