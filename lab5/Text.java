@@ -5,7 +5,8 @@ public class Text {
     public Text(String s) {
         System.out.println(":)");
         System.out.println(s);
-        String[] split = s.split("!|\\?");
-        sentences = new Sentence[3];
+//        String[] split = s.split("!|\\?|\\.");
+        String[] split = s.split("(?<=(!|\\?|\\.)) ?");
+        sentences = new Sentence[split.length];
     }
 }

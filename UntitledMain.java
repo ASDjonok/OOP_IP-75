@@ -1,5 +1,10 @@
 public class UntitledMain {
     public static void main(String[] args) {
-        System.out.println("\\\\");
+        /*int i = 0;
+        System.out.println(i++);
+        System.out.println(i);*/
+
+        Integer integer = null;
+        System.out.println(integer.intValue());
     }
 }
